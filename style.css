@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 html, body{
     padding: 0;
     margin: 0;
@@ -19,6 +21,24 @@ body{
     right: 0;
     justify-content: space-between;
 }
+.botao{
+    background-color: #A259F7;
+    height: 45px;
+    width: 150px;
+    text-align: center;
+    line-height: 47px;
+    font-size: 1.5em !important;
+    border: solid 1px #080324;
+}
+.botao:hover{
+    font-size: 1.6em !important;
+    height: 50px;
+    line-height: 53px;
+    width: 160px;
+    transition: 0.5s;
+    box-shadow: 4px 4px 6px #0000007a;
+}
+
 section{
     background-color: #080324;
 }
@@ -54,7 +74,7 @@ h1{
    flex-direction: column;
    margin-top: 250px;
 }
-.box3{
+#box3{
     display: flex;
     justify-content: space-between;
     align-items: normal;
@@ -132,9 +152,16 @@ p{
     height: 200px;
     width: 200px;
 }
+.div5{
+    color: #A259F7;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #010010;
+        border: solid 2px #A259F7;
+        padding: 55px 55px;
+}
 .texto6{
-    color: #a259f7;
-    border: 1px solid #a259f7;
+        width: 400px;
+        font-size: 20px;
 }
 .end{
     color: yellow;
